@@ -1,0 +1,54 @@
+[
+  {
+    "id": "purify_enemy",
+    "category": "combat",
+    "name": "The Purifier",
+    "triggerEvent": "ENEMY_PURIFIED",
+    "tiers": [
+      {
+        "target": 1,
+        "title": "Initiate Purifier",
+        "desc": "Purify 1 monster",
+        "icon":  "achievements/purify_1.png"
+      },
+      {
+        "target": 8,
+        "title": "Adept Purifier",
+        "desc": "Purify 8 monsters",
+        "icon": "achievements/purify_2.png"
+      },
+      {
+        "target": 25,
+        "title": "Grandmaster Purifier",
+        "desc": "Purify 25 monsters",
+        "icon": "achievements/purify_3.png"
+      }
+    ]
+  },
+  {
+    "id": "collect_items",
+    "category": "collect",
+    "name": "The Collector",
+    "triggerEvent": "ITEM_COLLECTED",
+    "tiers": [
+      {
+        "target": 1,
+        "title": "Novice Collector",
+        "desc": "Collect 1 item",
+        "icon": "achievements/collect_1.png"
+      },
+      {
+        "target": 5,
+        "title": "Adept Collector",
+        "desc": "Collect 5 items",
+        "icon": "achievements/collect_2.png"
+      },
+      {
+        "target": 10,
+        "title": "Grandmaster Collector",
+        "desc": "Collect 10 items",
+        "icon": "achievements/collect_3.png"
+      }
+    ]
+  }
+]
